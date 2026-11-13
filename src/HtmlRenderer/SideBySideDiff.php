@@ -1,8 +1,8 @@
 <?php
 
-namespace gipfl\Diff\HtmlRenderer;
+namespace nonini\Diff\HtmlRenderer;
 
-use gipfl\Diff\PhpDiff\Renderer\Html\SideBySide;
+use nonini\Diff\PhpDiff\Renderer\Html\SideBySide;
 use ipl\Html\ValidHtml;
 
 class SideBySideDiff extends SideBySide implements ValidHtml

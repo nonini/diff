@@ -1,8 +1,8 @@
 <?php
 
-namespace gipfl\Diff\PhpDiff\Renderer\Text;
+namespace nonini\Diff\PhpDiff\Renderer\Text;
 
-use gipfl\Diff\PhpDiff\Renderer\AbstractRenderer;
+use nonini\Diff\PhpDiff\Renderer\AbstractRenderer;
 
 /**
  * Unified diff generator for PHP DiffLib.

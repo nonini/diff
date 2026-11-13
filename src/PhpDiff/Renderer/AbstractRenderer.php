@@ -1,8 +1,8 @@
 <?php
 
-namespace gipfl\Diff\PhpDiff\Renderer;
+namespace nonini\Diff\PhpDiff\Renderer;
 
-use gipfl\Diff\PhpDiff;
+use nonini\Diff\PhpDiff;
 
 /**
  * Abstract class for diff renderers in PHP DiffLib.

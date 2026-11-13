@@ -1,9 +1,9 @@
 <?php
 
-namespace gipfl\Diff;
+namespace nonini\Diff;
 
-use gipfl\Diff\PhpDiff\OpCodeHelper;
-use gipfl\Diff\PhpDiff\SequenceMatcher;
+use nonini\Diff\PhpDiff\OpCodeHelper;
+use nonini\Diff\PhpDiff\SequenceMatcher;
 
 class PhpDiff
 {
@@ -143,5 +143,4 @@ class PhpDiff
     {
         $this->right = $lines;
     }
-
 }

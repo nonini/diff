@@ -1,6 +1,6 @@
 <?php
 
-namespace gipfl\Diff\PhpDiff;
+namespace nonini\Diff\PhpDiff;
 
 use function count;
 use function max;

@@ -1,8 +1,8 @@
 <?php
 
-namespace gipfl\Diff\PhpDiff\Renderer\Html;
+namespace nonini\Diff\PhpDiff\Renderer\Html;
 
-use gipfl\Diff\PhpDiff\Renderer\AbstractRenderer;
+use nonini\Diff\PhpDiff\Renderer\AbstractRenderer;
 
 /**
  * Base renderer for rendering HTML based diffs for PHP DiffLib.

@@ -1,7 +1,7 @@
 <?php
 
-use gipfl\Diff\HtmlRenderer\SideBySideDiff;
-use gipfl\Diff\PhpDiff;
+use nonini\Diff\HtmlRenderer\SideBySideDiff;
+use nonini\Diff\PhpDiff;
 
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 

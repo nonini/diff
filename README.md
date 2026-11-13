@@ -1,5 +1,5 @@
-gipfl\\Diff
-===========
+nonini\\Diff
+============
 
 ipl-compatible modernized php-diff fork
 
@@ -9,8 +9,8 @@ Usage
 ```php
 <?php
 
-use gipfl\Diff\HtmlRenderer\SideBySideDiff;
-use gipfl\Diff\PhpDiff;
+use nonini\Diff\HtmlRenderer\SideBySideDiff;
+use nonini\Diff\PhpDiff;
 
 require_once 'vendor/autoload.php';
 
@@ -24,8 +24,14 @@ $html->add(new SideBySideDiff($diff));
 Changes
 -------
 
-### v0.2.0
+### v0.4.0
 
+* BREAKING: namespace changed from `gipfl` to `nonini`, as the incubator module
+  (which has been used to ship `gipfl` dependencies) has been blocked in Icinga
+  Web.   
+
+### v0.2.0
+  
 * BREAKING: This initially didn't require Icinga Web, but now the CSS assumes
   that there is `@color-ok` and `@color-critical`. So if using this library
   elsewhere, you need to define such colors (green and red) accordingly.

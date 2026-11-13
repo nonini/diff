@@ -1,6 +1,6 @@
 <?php
 
-namespace gipfl\Diff\PhpDiff\Renderer\Html;
+namespace nonini\Diff\PhpDiff\Renderer\Html;
 
 /**
  * Inline HTML diff generator for PHP DiffLib.
